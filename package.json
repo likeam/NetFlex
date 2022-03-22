@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/likeam/NetFlex/issues"
   },
-  "homepage": "https://github.com/likeam/NetFlex#readme"
+  "homepage": "https://github.com/likeam/NetFlex#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }
