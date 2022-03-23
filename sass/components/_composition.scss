@@ -1,8 +1,9 @@
   .composition {
   position: relative;
+  padding-right: 5rem;
 
   &_photo {
-    width: 55%;
+    width: 50%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
     border-radius: 2px;
     position: absolute;
