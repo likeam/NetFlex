@@ -75,6 +75,7 @@ body {
   text-transform: uppercase;
   display: inline-block;
   background-image: linear-gradient(to right, #7ed56f, #28b485);
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
@@ -668,10 +669,7 @@ body {
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.7), rgba(40, 180, 133, 0.7)), url(../css/img/nat-4.jpg);
   background-size: cover;
   transform: skewY(-7deg);
-  margin-top: -10rem;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  margin-top: -10rem; }
   .section-features > * {
     transform: skewY(7deg); }
 
