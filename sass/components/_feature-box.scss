@@ -6,16 +6,17 @@
   text-align: center;
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
   transition: transform 0.3s;
-  width: 80%;
     &__icon {
-      font-size: 6rem;
-      margin-bottom: .5rem;
-      display: inline-block;
-      background-image: linear-gradient(to right, $color-primery-light, $color-primery-dark);
-      background-clip: text;
-      color: white;
-
-    
+    font-size: 6rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    background-image: linear-gradient(
+      to right,
+      $color-primery-light,
+      $color-primery-dark
+    );
+    background-clip: text;
+    color: transparent;
   }
   &:hover {
     transform: translateY(-2rem) scale(1.04);
