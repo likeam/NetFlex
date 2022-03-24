@@ -15,6 +15,8 @@
       position: absolute;
       top: 3rem;
       left: 3rem;
+      animation-name: moveInRight;
+      animation-duration: 1s;
     }
     &-logo {
       height: 3.5rem;

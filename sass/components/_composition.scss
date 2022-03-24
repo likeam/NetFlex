@@ -1,9 +1,9 @@
   .composition {
   position: relative;
-  padding-right: 5rem;
+  padding-right: 10rem;
 
   &_photo {
-    width: 50%;
+    width: 40%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
     border-radius: 2px;
     position: absolute;
@@ -12,16 +12,16 @@
     outline-offset: 2rem;
 
     &__p1 {
-      left: 0;
+      left: 6rem;
       top: -2rem;
     }
     &__p2 {
-      right: 0;
+      right: 15rem;
       top: 2rem;
     }
     &__p3 {
       top: 10rem;
-      left: 20%;
+      left: 25%;
     }
     &:hover {
       outline: 1.5rem solid $color-primery;
