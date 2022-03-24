@@ -24,10 +24,10 @@
       transform: translate(0);
     }
   }
-  @keyframes moveInBottom {
+  @keyframes moveInBottom{
     0% {
       opacity: 0;
-      transform: translateY(-3rem);
+      transform: translateY(3rem);
     }
     100% {
       opacity: 1;
